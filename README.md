@@ -85,12 +85,3 @@ ollama serve
 | GET | `/api/metrics/timeseries` | Get metrics over time |
 | GET | `/api/users/` | Admin: manage users |
 
-## 📅 Development Timeline
-
-- **Day 1**: Project setup, FastAPI backend, Angular scaffold
-- **Day 2**: LLM integration, charts, authentication & RBAC
-- **Day 3**: Docker, Spring Boot gateway, polish & docs
-
-## 📝 License
-
-MIT — Free and open-source.
