@@ -39,9 +39,10 @@ genai-monitoring-dashboard/
 
 ### Prerequisites
 - [Docker & Docker Compose](https://docs.docker.com/get-docker/)
-- [Ollama](https://ollama.ai/) with Mistral model (`ollama pull mistral`)
-- Node.js 20+ (for frontend development)
-- Python 3.10+ (for backend development)
+- [Ollama](https://ollama.ai/) with Mistral model 
+  - **Important:** Ensure you have downloaded the model by running `ollama run mistral` in your terminal. If you see a `404 Not Found` error in the Prompt Console, it means this model has not been downloaded yet.
+- Node.js 20+ (for backend/frontend local development)
+- Python 3.10+ (for backend local development)
 
 ### Run with Docker Compose
 ```bash
